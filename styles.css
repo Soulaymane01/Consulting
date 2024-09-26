@@ -20,7 +20,7 @@ body {
 }
 
 .hero-section {
-    background-image: url('images/HeroSectionImage.png');
+    background-image: url('images/HeroSectionImage.jpeg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -245,8 +245,48 @@ p {
     color: var(--text-dark);
 }
 
+
+
+/*     Biography section */
+.Biography {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.Biography img {
+    width: 250px; /* Set the width for the image */
+    height: auto;
+    border-radius: 50%; /* Circle-shaped image */
+    margin-right: 20px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow around the image */
+}
+
+.Biography-content {
+    max-width: 600px; /* Control the max width of the text content */
+}
+
+.Biography-content h2 {
+    font-size: 28px;
+    color: #111111; /* Dark text color */
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.Biography-content p {
+    font-size: 18px;
+    line-height: 1.8; /* Better line spacing for readability */
+    color: #373737; /* Slightly lighter text color */
+    text-align: justify;
+}
+
+
 /*  Success stories section */
-/* styles.css */
 .success-stories-section {
     padding: 40px 20px;
     background-color: var(--background-light);
@@ -558,4 +598,20 @@ p {
     .footer {
         padding: 5px 0;
     }
+
+    .Biography {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Biography img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .Biography-content {
+        max-width: 100%;
+    }
+
 }
