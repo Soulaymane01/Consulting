@@ -286,8 +286,6 @@ p{
 
 .contact {
     font-size: 1.2em;
-    display: flex;
-    flex-direction: row;
     text-align: center;
 }
 
