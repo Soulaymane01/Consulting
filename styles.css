@@ -63,8 +63,11 @@ h2 {
     text-align: center;
 }
 
+p{
+    font-size: 22px;
+}
+
 .content-section-slide p {
-    font-size: 1.2em;
     line-height: 1.6;
 }
 
@@ -86,6 +89,15 @@ h2 {
     line-height: 1.6;
 }
 
+/* Card styling */
+.card {
+    background-color: var(--primary-light);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 /* For Who Section */
 .for-who-section {
     padding: 40px 20px;
@@ -102,7 +114,6 @@ h2 {
 }
 
 .for-who-section p {
-    font-size: 1.2em;
     margin-bottom: 10px;
     line-height: 1.6;
 }
@@ -123,6 +134,7 @@ h2 {
 
 .price-section {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     background-color: #f0f0f0;
@@ -266,12 +278,17 @@ h2 {
 
 .contact-info {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     gap: 50px;
+    text-align: center;
 }
 
 .contact {
     font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
 }
 
 /* Footer */
